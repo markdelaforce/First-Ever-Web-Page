@@ -36,7 +36,7 @@ body {
 li {
 	target:_blank;
 	list-style-type:none;
-} 
+}
 a {
 	text-decoration:none;
 }
@@ -74,6 +74,33 @@ details {
 .info {
 	color:#52527a;
 	font-weight:normal;
+}
+.link-1:hover {
+	background-color:#baf200;
+}
+.link-2:hover {
+	background-color:#b30000;
+}
+.link-3:hover {
+	background-color:#f2ce00;
+}
+.link-4:hover {
+	background-color:#f2ce00;
+}
+.link-5:hover {
+	background-color:#ffff00;
+}
+.link-6:hover {
+	background-color:#ff9100;
+}
+.link-7:hover {
+	background-color:#66ff66;
+}
+.link-8:hover {
+	background-color:#ffbf00;
+}
+.link-9:hover {
+	background-color:#04fcfc;
 }
 #top-section {
 	margin-left:25px;
