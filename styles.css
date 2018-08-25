@@ -59,7 +59,7 @@ details {
 	background:#0000ff;
 	padding-top:3px;
 	padding-bottom:3px;
-	margin-left:35px;
+	margin-left:40px;
 	border-radius:5px;
 	text-align:center;
 	box-shadow: 2px 2px 2px #666666;
@@ -75,32 +75,68 @@ details {
 	color:#52527a;
 	font-weight:normal;
 }
+.link-1:link, .link-1:visited {
+	color:#b30086;
+}
 .link-1:hover {
-	background-color:#baf200;
+	background-color:#b30086;
+	color:white;
+}
+.link-2:link, .link-2:visited {
+	color:#b3b300;
 }
 .link-2:hover {
-	background-color:#b30000;
+	background-color:#b3b300;
+	color:white;
+}
+.link-3:link, .link-3:visited {
+	color:#006bb3;
 }
 .link-3:hover {
-	background-color:#f2ce00;
+	background-color:#006bb3;
+	color:white;
+}
+.link-4:link, .link-4:visited {
+	color:#00802b;
 }
 .link-4:hover {
-	background-color:#f2ce00;
+	background-color:#00802b;
+	color:white;
+}
+.link-5:link, .link-5:visited {
+	color:#ff8000;
 }
 .link-5:hover {
-	background-color:#ffff00;
+	background-color:#ff8000;
+	color:white;
+}
+.link-6:link, .link-6:visited {
+	color:#0086b3;
 }
 .link-6:hover {
-	background-color:#ff9100;
+	background-color:#0086b3;
+	color:white;
+}
+.link-7:link, .link-7:visited {
+	color:#ff6666;
 }
 .link-7:hover {
-	background-color:#66ff66;
+	background-color:#ff6666;
+	color:white;
+}
+.link-8:link, .link-8:visited {
+	color:#8000ff;
 }
 .link-8:hover {
-	background-color:#ffbf00;
+	background-color:#8000ff;
+	color:white;
+}
+.link-9:link, .link-9:visited {
+	color:#e60073;
 }
 .link-9:hover {
-	background-color:#04fcfc;
+	background-color:#e60073;
+	color:white;
 }
 #top-section {
 	margin-left:25px;
