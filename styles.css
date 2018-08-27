@@ -3,8 +3,8 @@ h1 {
 	color:white;
 	background:#0000ff;
 	padding-top:30px;
-	margin-top:25px;
-	margin-bottom:25px;
+	margin-top:35px;
+	margin-bottom:35px;
 	text-align:center;
 	border-radius:10px;
 	border:2px solid #002db3;
@@ -43,15 +43,7 @@ a {
 details {
 	margin-top:8px;
 }
-.quick-nav {
-	width:270px;
-	height:25px;
-	padding-top:7px;
-	margin-bottom:7px;
-	border-radius:5px;
-	text-align:center;
-	box-shadow: 2px 2px 2px #666666;
-}
+
 .back-button {
 	width:140px;
 	height:20px;
@@ -78,120 +70,199 @@ details {
 .link-1:link, .link-1:visited {
 	color:#b30086;
 }
-.link-1:hover {
-	background-color:#b30086;
-	color:white;
-}
 .link-2:link, .link-2:visited {
 	color:#b3b300;
-}
-.link-2:hover {
-	background-color:#b3b300;
-	color:white;
 }
 .link-3:link, .link-3:visited {
 	color:#006bb3;
 }
-.link-3:hover {
-	background-color:#006bb3;
-	color:white;
-}
 .link-4:link, .link-4:visited {
 	color:#00802b;
-}
-.link-4:hover {
-	background-color:#00802b;
-	color:white;
 }
 .link-5:link, .link-5:visited {
 	color:#ff8000;
 }
-.link-5:hover {
-	background-color:#ff8000;
-	color:white;
-}
 .link-6:link, .link-6:visited {
 	color:#0086b3;
-}
-.link-6:hover {
-	background-color:#0086b3;
-	color:white;
 }
 .link-7:link, .link-7:visited {
 	color:#ff6666;
 }
-.link-7:hover {
-	background-color:#ff6666;
-	color:white;
-}
 .link-8:link, .link-8:visited {
 	color:#7300e6;
-}
-.link-8:hover {
-	background-color:#7300e6;
-	color:white;
 }
 .link-9:link, .link-9:visited {
 	color:#e60073;
 }
-.link-9:hover {
-	background-color:#e60073;
-	color:white;
-}
 .link-10:link, .link-10:visited {
 	color:#8000ff;
 }
+.link-1:hover {
+	background-color:#b30086;
+}
+.link-2:hover {
+	background-color:#b3b300;
+}
+.link-3:hover {
+	background-color:#006bb3;
+}
+.link-4:hover {
+	background-color:#00802b;
+}
+.link-5:hover {
+	background-color:#ff8000;
+}
+.link-6:hover {
+	background-color:#0086b3;
+}
+.link-7:hover {
+	background-color:#ff6666;
+}
+.link-8:hover {
+	background-color:#7300e6;
+}
+.link-9:hover {
+	background-color:#e60073;
+}
 .link-10:hover {
 	background-color:#8000ff;
-	color:white;
 }
+.link-1:hover, .link-2:hover, .link-3:hover, .link-4:hover, .link-5:hover, .link-6:hover, .link-7:hover, .link-8:hover, .link-9:hover, .link-10:hover {
+	color:black;
+}
+.button-container {
+	margin-top:15px;
+	margin-bottom:23px;
+}
+.span-link {
+	border-radius:5px;
+	background-color:yellow;
+	color:black;
+	padding-top:8px;
+	padding-bottom:8px;
+	box-shadow: 2px 2px 2px #666666;
+}
+
+
+
 #top-section {
-	margin-left:25px;
 	margin-top:35px;
+	margin-left:25px;
 }
 #top-text {
 	font-size:22px;
 	margin-bottom:45px;
 	font-family:"Cabin Sketch", serif;
 }
+#nav-1 {
+	padding-left:68px;
+	padding-right:68px;
+}
+#nav-1:hover {
+	background-color:#b30086;
+}
 #code-editors, #nav-1 {
 	background:#e600ac;
 	color:white;
+}
+#nav-2 {
+	padding-left:103px;
+	padding-right:103px;
+}
+#nav-2:hover {
+	background-color:#cccc00;
 }
 #tutorials, #nav-2 {
 	background:#ffff00;
 	color:#666;
 }
+#nav-3 {
+	padding-left:93px;
+	padding-right:93px;
+}
+#nav-3:hover {
+	background-color:#008ae6;
+}
 #online-tools, #nav-3 {
 	background:#0099ff;
 	color:white;
+}
+#nav-4 {
+	padding-left:6px;
+	padding-right:6px;
+}
+#nav-4:hover {
+	background-color:#008000;
 }
 #access-international, #nav-4 {
 	background:#00b300;
 	color:white;
 }
+#nav-5 {
+	padding-left:67px;
+	padding-right:67px;
+}
+#nav-5:hover {
+	background-color:#cc6600;
+}
 #characters, #nav-5 {
 	background:#ff9933;
 	color:white;
+}
+#nav-6 {
+	padding-left:99px;
+	padding-right:99px;
+}
+#nav-6:hover {
+	background-color:#0099cc;
 }
 #attributes, #nav-6 {
 	background:#00bfff;
 	color:#333;
 }
+#nav-7 {
+	padding-left:109px;
+	padding-right:109px;
+}
+#nav-7:hover {
+	background-color:#ff8080;
+}
 #images, #nav-7 {
 	background:#ffb3b3;
 	color:#666;
+}
+#nav-8 {
+	padding-left:76px;
+	padding-right:76px;
+}
+#nav-8:hover {
+	background-color:#330066;
 }
 #media, #nav-8 {
 	background:#5900b3;
 	color:white;
 }
+#nav-9 {
+	padding-left:120px;
+	padding-right:120px;
+}
+#nav-9:hover {
+	background-color:#cc0066;
+}
 #css, #nav-9 {
 	background:#ff1a8c;
 	color:white;
+}
+#nav-10 {
+	padding-left:73px;
+	padding-right:73px;
+}
+#nav-10:hover {
+	background-color:#6600cc;
 }
 #other, #nav-10 {
 	background:#a64dff;
 	color:white;
 }
+
 
