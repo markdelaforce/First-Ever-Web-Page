@@ -13,7 +13,8 @@ h1 {
 	font-size:50px;
 }
 h3 {
-	width:490px;
+	width:36%;
+	min-width:390px;
 	height:25px;
 	padding-top:5px;
 	padding-left:10px;
@@ -50,16 +51,18 @@ details {
 	width:270px;
 	padding-top:9px;
 	padding-bottom:9px;
+	margin-right:45px;
 	margin-bottom:8px;
 	text-align:center;
 	font-weight:bold;
 	border-radius:5px;
 	box-shadow: 2px 2px 2px #666666;
-	margin-right:45px;
 }
 .my-image {
-	width:500px;
-	height:300px;
+	width:37%;
+	height:auto;
+	max-width:500px;
+	min-width:400px;
 	border-radius:5px;
 	box-shadow: 3px 3px 3px #666666;
 }
@@ -159,14 +162,27 @@ details {
 #top-text {
 	font-size:20px;
 	font-family:"Exo 2", serif;
-	flex-basis:38%;
-	flex-grow:1;
+	text-align:justify;
+	margin-top:10px;
+	flex:1;
 	max-width:initial;
 	margin-top:0px;
 }
-#nav-and-iframe {
+#vid {
+	flex:5;
+	min-width:394px;
+	min-height:240px;
+}
+#outer-flexbox {
 	display:flex;
 	flex-flow: wrap;
+}
+#inner-flexbox {
+	display:flex;
+	flex-direction:column;
+	flex-basis:60%;
+	align-items:center;
+	flex:1;
 }
 #nav-1:hover {
 	background-color:#b30086;
