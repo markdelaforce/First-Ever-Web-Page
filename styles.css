@@ -126,12 +126,18 @@ details {
 	background-color:#e60073;
 }
 .link-10:link, .link-10:visited {
-	color:#8000ff;
+	color:#00cca3;
 }
 .link-10:hover {
+	background-color:#00cca3;
+}
+.link-11:link, .link-11:visited {
+	color:#8000ff;
+}
+.link-11:hover {
 	background-color:#8000ff;
 }
-.link-1:hover, .link-2:hover, .link-3:hover, .link-4:hover, .link-5:hover, .link-6:hover, .link-7:hover, .link-8:hover, .link-9:hover, .link-10:hover {
+.link-1:hover, .link-2:hover, .link-3:hover, .link-4:hover, .link-5:hover, .link-6:hover, .link-7:hover, .link-8:hover, .link-9:hover, .link-10:hover, .link-11:hover {
 	color:#000;
 }
 .back-button {
@@ -247,10 +253,17 @@ details {
 	background:#ff1a8c;
 	color:white;
 }
-#nav-10:hover {
-	background-color:#6600cc;
+#nav-9:hover {
+	background-color:#cc0066;
 }
-#other, #nav-10 {
+#layout, #nav-10 {
+	background:#00cca3;
+	color:#4d4d4d;
+}
+#nav-10:hover {
+	background-color:#00997a;
+}
+#other, #nav-11 {
 	background:#a64dff;
 	color:white;
 }
